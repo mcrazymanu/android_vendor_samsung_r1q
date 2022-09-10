@@ -35,5 +35,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r1q/proprietary/etc/pdp_prepare_fbe.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_prepare_fbe.sh \
     vendor/samsung/r1q/proprietary/etc/pdp_restore.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_restore.sh \
     vendor/samsung/r1q/proprietary/etc/pdp_saveplog.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_saveplog.sh \
-    vendor/samsung/r1q/proprietary/etc/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/etc/lib/libril.so \
-    vendor/samsung/r1q/proprietary/etc/lib64/libril.so:$(TARGET_COPY_OUT_SYSTEM)/etc/lib64/libril.so
+    vendor/samsung/r1q/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libril.so \
+    vendor/samsung/r1q/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libril.so
