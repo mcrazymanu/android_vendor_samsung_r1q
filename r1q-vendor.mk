@@ -17,6 +17,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/r1q
 
+PRODUCT_PACKAGES += \
+        libril
+
 PRODUCT_COPY_FILES += \
     vendor/samsung/r1q/proprietary/etc/bluetooth/av_performance.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/av_performance.conf \
     vendor/samsung/r1q/proprietary/etc/bluetooth/iop_bt.db:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/iop_bt.db \
@@ -34,6 +37,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r1q/proprietary/etc/pdp_papps_copy.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_papps_copy.sh \
     vendor/samsung/r1q/proprietary/etc/pdp_prepare_fbe.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_prepare_fbe.sh \
     vendor/samsung/r1q/proprietary/etc/pdp_restore.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_restore.sh \
-    vendor/samsung/r1q/proprietary/etc/pdp_saveplog.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_saveplog.sh \
-    vendor/samsung/r1q/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib/libril.so \
-    vendor/samsung/r1q/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libril.so
+    vendor/samsung/r1q/proprietary/etc/pdp_saveplog.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/pdp_saveplog.sh
